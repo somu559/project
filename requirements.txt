@@ -1,0 +1,7 @@
+# Core
+Django>=4.2,<5.1
+djangorestframework>=3.14
+
+# MySQL (optional). Install when USE_MYSQL=1 in environment.
+# On Windows, use a prebuilt wheel or consider PyMySQL + django backend if needed.
+mysqlclient>=2.2.0; platform_system != "Windows"
